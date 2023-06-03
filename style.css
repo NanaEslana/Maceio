@@ -1,10 +1,16 @@
+body {
+
+    background-color: rgba(67, 203, 212, 0.76);
+}
+
 h1 {
 
+    
     font-size: 2rem;
     color: white
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-top: 5px
+    margin-top: 5%
 }
 
 .img-galeria{
@@ -12,7 +18,7 @@ h1 {
     display: : flex;
     height: 10rem;
     gap: 1rem
-    margin-top: 10px
+    margin-top: 10%
 } 
 
 img {
@@ -21,7 +27,8 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
-    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+    transition: 
+    all .8s cubic-bezier(.25, .4, .45, 1.4);
 
 }
 
